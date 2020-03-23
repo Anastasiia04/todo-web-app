@@ -17,7 +17,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'toastr-rails'
-gem 'wdm', '>= 0.1.0'
 
 group :development, :test do
   gem 'sqlite3', '<1.4'

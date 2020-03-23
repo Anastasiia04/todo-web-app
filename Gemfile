@@ -39,6 +39,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'sqlite3', '<1.4'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
@@ -48,8 +49,8 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.19.0'
-  config.action_mailer.default_url_options = {:host => 'myapp.herokuapp.com', :protocol => 'http'}
+  gem 'pg', '~> 0.21.0'
+  gem 'rails_12factor', '~> 0.0.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

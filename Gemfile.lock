@@ -185,7 +185,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bundler (= 2.1.4)
   byebug
   coffee-rails (~> 4.2)
   devise
